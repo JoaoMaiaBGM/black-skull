@@ -5,8 +5,6 @@ export const HeaderContainer = styled.header`
   max-width: 100vw;
   max-height: 104px;
 
-  margin-bottom: 10px;
-
   .headerTop {
     width: 100%;
     height: 32px;
