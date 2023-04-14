@@ -86,11 +86,17 @@ export const HeaderContainer = styled.header`
     align-items: center;
 
     list-style: none;
-
-    padding-left: 0;
   }
 
   .navbarItem {
+  }
+
+  .navbarLink {
+    height: 72px;
+
+    display: flex;
+    align-items: center;
+
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     text-transform: uppercase;
@@ -99,18 +105,36 @@ export const HeaderContainer = styled.header`
     font-size: 12px;
 
     color: ${theme.colors.gray1};
+    padding: 0 10px;
 
-    padding: 29px 12px;
+    position: relative;
+    transition: 0.3s;
   }
 
-  .navbarItem:hover {
-    transition: 0.3s;
+  .navbarLink::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s;
+
+    position: absolute;
+    bottom: 0;
+  }
+
+  .navbarLink:hover {
     color: ${theme.colors.white};
     background-color: ${theme.colors.dark3};
+  }
 
-    padding: 29px 12px;
+  .navbarLink:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    background-color: ${theme.colors.orange1};
 
-    border-bottom: ${theme.colors.orange2};
+    margin-left: -10px;
   }
 
   .input {

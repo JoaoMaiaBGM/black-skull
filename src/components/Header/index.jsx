@@ -32,38 +32,38 @@ export function Header() {
 
         <nav className="nav">
           <ul className="navbar">
-            <li>
-              <a className="navbarItem" href={"/#categorias"}>
+            <li className="navbarItem">
+              <a className="navbarLink" href={"/#categorias"}>
                 categorias
               </a>
             </li>
 
-            <li>
-              <a className="navbarItem" href={"/#vestuário"}>
+            <li className="navbarItem">
+              <a className="navbarLink" href={"/#vestuário"}>
                 vestuário
               </a>
             </li>
 
-            <li>
-              <Link className="navbarItem" href={"/#objetivos"}>
+            <li className="navbarItem">
+              <a className="navbarLink" href={"/#objetivos"}>
                 objetivos
-              </Link>
+              </a>
             </li>
 
-            <li>
-              <a className="navbarItem" href={"/#promoções"}>
+            <li className="navbarItem">
+              <a className="navbarLink" href={"/#promoções"}>
                 promoções
               </a>
             </li>
 
-            <li>
-              <a className="navbarItem" href={"/#atletas"}>
+            <li className="navbarItem">
+              <a className="navbarLink" href={"/#atletas"}>
                 atletas
               </a>
             </li>
 
-            <li>
-              <a className="navbarItem" href={"/#assinatura"}>
+            <li className="navbarItem">
+              <a className="navbarLink" href={"/#assinatura"}>
                 assinatura
               </a>
             </li>
