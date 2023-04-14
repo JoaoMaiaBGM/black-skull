@@ -15,6 +15,11 @@ const theme = {
     orange1: "#FF9601",
     orange2: "#FFC470",
   },
+
+  fonts: {
+    roboto: "Inter, sans-serif",
+    barlow: "Barlow, sans-serif",
+  },
 };
 
 export { theme };
