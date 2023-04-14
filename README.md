@@ -5,9 +5,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 an e-commerce of nutrition and health products. Developed as a technical test for a front-end position at **_Wicomm_**.
 
 ## Technologies:
-Next
-React
-Styled-components
+- Next
+- React
+- Styled-components
 
 ## Getting Started
 
