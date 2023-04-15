@@ -17,8 +17,8 @@ export function ProductsList() {
         />
 
         <ul className="carouselProducts">
-          {data.map((product) => (
-            <l1 className="productsItem">
+          {data.map((product, key) => (
+            <l1 className="productsItem" key={product.id}>
               <Image
                 className="productImage"
                 src={BoxProduct}
