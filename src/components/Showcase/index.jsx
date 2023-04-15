@@ -6,18 +6,8 @@ import { BsArrowLeftSquareFill, BsArrowRightSquareFill } from "react-icons/bs";
 export function Showcase() {
   return (
     <>
-      <CategoriesContainer id="categorias">
-        {/* Left icon */}
-        <button onClick={() => scrollLeft()}>
-          <BsArrowLeftSquareFill />
-        </button>
-
+      <CategoriesContainer>
         <CategoriesList />
-
-        {/* Right icon */}
-        <button onClick={() => scrollRight()}>
-          <BsArrowRightSquareFill />
-        </button>
       </CategoriesContainer>
     </>
   );

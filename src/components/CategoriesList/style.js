@@ -2,7 +2,38 @@ import styled from "styled-components";
 import { theme } from "../../theme";
 
 export const CategoriesContainer = styled.div`
-  ul {
+  margin: 0 auto;
+  padding: 0 68px;
+
+  display: flex;
+  align-items: center;
+
+  .iconLeft {
+    margin: 0 -25px 0 0;
+    border: none;
+    border-radius: 4px;
+
+    font-size: 32px;
+
+    z-index: 2;
+
+    cursor: pointer;
+  }
+
+  .iconRight {
+    margin: 0 0 0 -25px;
+
+    border: none;
+    border-radius: 4px;
+
+    font-size: 32px;
+
+    z-index: 2;
+
+    cursor: pointer;
+  }
+
+  .carouselCategories {
     width: 100%;
     display: flex;
 
