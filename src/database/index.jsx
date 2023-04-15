@@ -1,8 +1,7 @@
-const data = [
+export const data = [
   {
     id: 1,
-    name: "Whey zero(com lactase)",
-    description: "Black Skull-900g",
+    name: "Whey zero(com lactase) Black Skull-900g",
     price: 349.9,
     sale: false,
     flavor: "chocolate",
@@ -10,8 +9,7 @@ const data = [
   },
   {
     id: 2,
-    name: "Whey zero(com lactose)",
-    description: "Black Skull-900g",
+    name: "Whey zero(com lactase) Black Skull-900g",
     price: 349.9,
     sale: true,
     flavor: "baunilha",
@@ -19,8 +17,7 @@ const data = [
   },
   {
     id: 3,
-    name: "Whey zero(com lactose)",
-    description: "Black Skull-900g",
+    name: "Whey zero(com lactase) Black Skull-900g",
     price: 349.9,
     sale: false,
     size: "large",
@@ -29,8 +26,7 @@ const data = [
   },
   {
     id: 4,
-    name: "Whey zero(com lactose)",
-    description: "Black Skull-900g",
+    name: "Whey zero(com lactase) Black Skull-900g",
     price: 349.9,
     sale: false,
     size: "medium",
@@ -39,8 +35,7 @@ const data = [
   },
   {
     id: 5,
-    name: "Whey zero(com lactose)",
-    description: "Black Skull-900g",
+    name: "Whey zero(com lactase) Black Skull-900g",
     price: 349.9,
     sale: true,
     flavor: "toffee",
@@ -48,8 +43,7 @@ const data = [
   },
   {
     id: 6,
-    name: "Whey zero(com lactose)",
-    description: "Black Skull-900g",
+    name: "Whey zero(com lactase) Black Skull-900g",
     price: 349.9,
     sale: true,
     size: "extra large",
@@ -58,8 +52,7 @@ const data = [
   },
   {
     id: 7,
-    name: "Whey zero(com lactose)",
-    description: "Black Skull-900g",
+    name: "Whey zero(com lactase) Black Skull-900g",
     price: 349.9,
     sale: false,
     flavor: "morango",
@@ -67,8 +60,7 @@ const data = [
   },
   {
     id: 8,
-    name: "Whey zero(com lactose)",
-    description: "Black Skull-800g",
+    name: "Whey zero(com lactase) Black Skull-900g",
     price: 349.9,
     sale: true,
     flavor: "chocolate",
