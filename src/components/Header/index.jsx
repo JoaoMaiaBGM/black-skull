@@ -51,7 +51,7 @@ export function Header() {
             </li>
 
             <li className="navbarItem">
-              <a className="navbarLink" href={"/#promoções"}>
+              <a className="navbarLink" href={"/#promocoes"}>
                 promoções
               </a>
             </li>
