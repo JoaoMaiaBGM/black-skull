@@ -1,4 +1,5 @@
 import { HeroContainer } from "./style";
+import { PrimaryButton } from "../Buttons/primaryButton";
 
 export function Hero() {
   return (
@@ -12,7 +13,7 @@ export function Hero() {
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor invidunt ut labore et dolore magna
         </p>
-        <button className="heroButton">Confira</button>
+        <PrimaryButton>Confira</PrimaryButton>
       </div>
     </HeroContainer>
   );
