@@ -42,7 +42,6 @@ export function CategoriesList() {
       </ul>
 
       {/* Right icon */}
-
       <HiArrowRight
         className="icon"
         aria-label="right-arrow"

@@ -15,7 +15,22 @@ export const ParentContainer = styled.div`
   border-radius: 50%;
 
   img {
-    width: 100px;
-    height: 100px;
+    width: 178px;
+    height: 178px;
+
+    padding: 40px;
+
+    z-index: 2;
+  }
+
+  &&:hover {
+    transition: 0.9s ease-out;
+    background-color: ${theme.colors.orange1};
+  }
+
+  img:hover {
+    transition: 0.8s;
+    width: 230px;
+    height: 230px;
   }
 `;
