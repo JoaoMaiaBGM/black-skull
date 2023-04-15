@@ -2,6 +2,7 @@ export const data = [
   {
     id: 1,
     name: "Whey zero(com lactase) Black Skull-900g",
+    image: "../assets/BoxProduct.svg",
     price: 349.9,
     sale: false,
     flavor: "chocolate",
@@ -10,6 +11,7 @@ export const data = [
   {
     id: 2,
     name: "Whey zero(com lactase) Black Skull-900g",
+    image: "../assets/BoxProduct.svg",
     price: 349.9,
     sale: true,
     flavor: "baunilha",
@@ -18,6 +20,7 @@ export const data = [
   {
     id: 3,
     name: "Whey zero(com lactase) Black Skull-900g",
+    image: "../assets/BoxProduct.svg",
     price: 349.9,
     sale: false,
     size: "large",
@@ -27,6 +30,7 @@ export const data = [
   {
     id: 4,
     name: "Whey zero(com lactase) Black Skull-900g",
+    image: "../assets/BoxProduct.svg",
     price: 349.9,
     sale: false,
     size: "medium",
@@ -36,6 +40,7 @@ export const data = [
   {
     id: 5,
     name: "Whey zero(com lactase) Black Skull-900g",
+    image: "../assets/BoxProduct.svg",
     price: 349.9,
     sale: true,
     flavor: "toffee",
@@ -44,6 +49,7 @@ export const data = [
   {
     id: 6,
     name: "Whey zero(com lactase) Black Skull-900g",
+    image: "../assets/BoxProduct.svg",
     price: 349.9,
     sale: true,
     size: "extra large",
@@ -53,6 +59,7 @@ export const data = [
   {
     id: 7,
     name: "Whey zero(com lactase) Black Skull-900g",
+    image: "../assets/BoxProduct.svg",
     price: 349.9,
     sale: false,
     flavor: "morango",
@@ -61,6 +68,7 @@ export const data = [
   {
     id: 8,
     name: "Whey zero(com lactase) Black Skull-900g",
+    image: "../assets/BoxProduct.svg",
     price: 349.9,
     sale: true,
     flavor: "chocolate",

@@ -2,7 +2,7 @@ import { ParentCategorie } from "../ParentCategories";
 import { CategoriesContainer } from "./style";
 import bagProduct from "../../assets/BagProduct.svg";
 import { HiArrowLeft, HiArrowRight } from "react-icons/hi";
-import { scrollLeft, scrollRight } from "utils/lists";
+import { scrollLeftCategories, scrollRightCategories } from "utils/lists";
 
 export function CategoriesList() {
   return (
@@ -11,7 +11,7 @@ export function CategoriesList() {
       <HiArrowLeft
         className="icon"
         aria-label="left-arrow"
-        onClick={() => scrollLeft()}
+        onClick={() => scrollLeftCategories()}
       />
 
       <ul className="carouselCategories">
@@ -45,7 +45,7 @@ export function CategoriesList() {
       <HiArrowRight
         className="icon"
         aria-label="right-arrow"
-        onClick={() => scrollRight()}
+        onClick={() => scrollRightCategories()}
       />
     </CategoriesContainer>
   );
