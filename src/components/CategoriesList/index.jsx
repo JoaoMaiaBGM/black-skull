@@ -1,15 +1,15 @@
 import { ParentCategorie } from "../ParentCategories";
 import { CategoriesContainer } from "./style";
 import bagProduct from "../../assets/BagProduct.svg";
-import { BsArrowLeftSquareFill, BsArrowRightSquareFill } from "react-icons/bs";
+import { HiArrowLeft, HiArrowRight } from "react-icons/hi";
 import { scrollLeft, scrollRight } from "utils/lists";
 
 export function CategoriesList() {
   return (
     <CategoriesContainer id="categorias">
       {/* Left icon */}
-      <BsArrowLeftSquareFill
-        className="iconLeft"
+      <HiArrowLeft
+        className="icon"
         aria-label="left-arrow"
         onClick={() => scrollLeft()}
       />
@@ -43,8 +43,8 @@ export function CategoriesList() {
 
       {/* Right icon */}
 
-      <BsArrowRightSquareFill
-        className="iconRight"
+      <HiArrowRight
+        className="icon"
         aria-label="right-arrow"
         onClick={() => scrollRight()}
       />

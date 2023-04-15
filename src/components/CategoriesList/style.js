@@ -2,35 +2,32 @@ import styled from "styled-components";
 import { theme } from "../../theme";
 
 export const CategoriesContainer = styled.div`
+  width: 70.9rem;
   margin: 0 auto;
-  padding: 0 68px;
 
   display: flex;
   align-items: center;
 
-  .iconLeft {
-    margin: 0 -25px 0 0;
+  .icon {
+    margin-top: -15px;
+    padding: 5px;
+
     border: none;
     border-radius: 4px;
 
-    font-size: 32px;
+    font-size: 22px;
+
+    color: ${theme.colors.black2};
+    background-color: ${theme.colors.gray2};
 
     z-index: 2;
 
+    transition: 0.3s;
     cursor: pointer;
   }
 
-  .iconRight {
-    margin: 0 0 0 -25px;
-
-    border: none;
-    border-radius: 4px;
-
-    font-size: 32px;
-
-    z-index: 2;
-
-    cursor: pointer;
+  .icon:hover {
+    background-color: ${theme.colors.orange2};
   }
 
   .carouselCategories {
@@ -39,12 +36,10 @@ export const CategoriesContainer = styled.div`
 
     margin: 40px 0;
 
-    padding: 0 40px 10px 40px;
-
     flex-wrap: nowrap;
-    overflow-x: hidden;
+    overflow: hidden;
 
-    gap: 20px;
+    gap: 25px;
   }
 
   .categorieItem {

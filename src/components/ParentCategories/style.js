@@ -2,8 +2,8 @@ import styled from "styled-components";
 import { theme } from "../../theme";
 
 export const ParentContainer = styled.div`
-  width: 178px;
-  height: 178px;
+  width: 158px;
+  height: 158px;
 
   display: flex;
   align-items: center;
@@ -15,7 +15,7 @@ export const ParentContainer = styled.div`
   border-radius: 50%;
 
   img {
-    width: 108px;
-    height: 108px;
+    width: 100px;
+    height: 100px;
   }
 `;
