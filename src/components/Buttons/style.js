@@ -24,4 +24,8 @@ export const PrimaryButtonStyle = styled.button`
   color: ${theme.colors.black1};
 
   border: ${theme.colors.orange1};
+
+  &&:hover {
+    background-color: ${theme.colors.orange2};
+  }
 `;
