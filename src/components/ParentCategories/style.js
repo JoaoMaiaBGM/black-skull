@@ -14,6 +14,8 @@ export const ParentContainer = styled.div`
   border: none;
   border-radius: 50%;
 
+  transition: background-color 0.5s steps(10);
+
   img {
     width: 178px;
     height: 178px;
@@ -24,7 +26,7 @@ export const ParentContainer = styled.div`
   }
 
   &&:hover {
-    transition: 0.9s ease-out;
+    border: 3px solid ${theme.colors.orange2};
     background-color: ${theme.colors.orange1};
   }
 

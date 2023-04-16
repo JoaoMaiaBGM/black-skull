@@ -42,8 +42,26 @@ export const ProductsContainer = styled.div`
     gap: 25px;
   }
 
+  .productCardContainer {
+    button {
+      width: 100%;
+
+      background-color: inherit;
+      color: white;
+
+      transition: 0.4s;
+    }
+  }
+
+  .productCardContainer:hover {
+    button {
+      background-color: ${theme.colors.orange1};
+      color: ${theme.colors.dark1};
+    }
+  }
+
   .productsItem {
-    width: 275px;
+    width: 200px;
     height: 340px;
 
     display: flex;
@@ -51,7 +69,7 @@ export const ProductsContainer = styled.div`
     align-items: center;
     justify-content: space-between;
 
-    padding: 20px 40px;
+    padding: 20px 30px;
 
     background-color: ${theme.colors.white};
 
