@@ -53,6 +53,40 @@ export const StaffContainer = styled.div`
 
     gap: 20px;
   }
+
+  .staffListItem {
+    display: flex;
+
+    position: relative;
+    transition: 0.3s;
+  }
+
+  .staffListItem::after {
+    content: "Cedric MacMillan";
+
+    width: 86%;
+    height: 80px;
+
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s;
+
+    position: absolute;
+    bottom: 0;
+  }
+
+  .staffListItem:hover {
+    color: ${theme.colors.orange1};
+    font-family: ${theme.fonts.robotoCondensed};
+  }
+
+  .staffListItem:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    background-color: rgba(28, 28, 30, 0.95);
+
+    padding: 20px;
+  }
 `;
 
 export const StaffButton = styled.div`

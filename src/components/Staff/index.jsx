@@ -17,19 +17,19 @@ export function Staff() {
           </h1>
           <BaseList>
             <ul className="staffList">
-              <li>
+              <li className="staffListItem">
                 <Image
                   src={card1}
                   alt="Imagem de pessoas em trajes esportivos"
                 />
               </li>
-              <li>
+              <li className="staffListItem">
                 <Image
                   src={card2}
                   alt="Imagem de pessoas em trajes esportivos"
                 />
               </li>
-              <li>
+              <li className="staffListItem">
                 <Image
                   src={card3}
                   alt="Imagem de pessoas em trajes esportivos"
