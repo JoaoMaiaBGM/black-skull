@@ -7,16 +7,14 @@ export const PrimaryButtonStyle = styled.button`
   align-items: center;
   justify-content: space-evenly;
 
-  border-radius: 8px;
+  border-radius: 6px;
   border: solid 1px transparent;
-  padding: 14px 24px;
+  padding: 12px 22px;
 
   font-family: ${theme.fonts.barlow};
   font-weight: 700;
-  font-size: 16px;
+  font-size: 15px;
   text-transform: uppercase;
-
-  gap: 10px;
 
   cursor: pointer;
 

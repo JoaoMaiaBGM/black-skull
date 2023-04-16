@@ -4,6 +4,7 @@ import { Hero } from "../components/Hero";
 import { Showcase } from "../components/Showcase";
 import { Staff } from "components/Staff";
 import { Sales } from "components/Sales";
+import { Blog } from "components/Blog";
 
 export default function Home() {
   return (
@@ -41,6 +42,7 @@ export default function Home() {
         <Showcase />
         <Staff />
         <Sales />
+        <Blog />
       </main>
     </>
   );

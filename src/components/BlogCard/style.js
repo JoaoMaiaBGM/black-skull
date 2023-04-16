@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import { theme } from "../../theme";
 
-export const BlogCardContainer = styled.div`
-  width: 376px;
+export const BlogCardContainer = styled.li`
+  width: 350px;
 
   border: solid 1px ${theme.colors.dark3};
   border-radius: 2px;
@@ -10,16 +10,11 @@ export const BlogCardContainer = styled.div`
   background-color: ${theme.colors.dark1};
 
   .blogCardImageContainer {
-    width: 376px;
-    height: 200px;
+    width: 100%;
+    height: 194px;
 
     overflow: hidden;
     position: relative;
-  }
-
-  .blogCardImage {
-    width: 100%;
-    height: 100%;
   }
 
   &&:hover {
@@ -49,8 +44,7 @@ export const BlogCardContainer = styled.div`
     font-family: ${theme.fonts.barlow};
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 13px;
 
     color: ${theme.colors.gray2};
   }
@@ -59,7 +53,7 @@ export const BlogCardContainer = styled.div`
     font-family: ${theme.fonts.barlow};
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 22px;
     text-transform: uppercase;
 

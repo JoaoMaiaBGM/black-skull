@@ -18,7 +18,7 @@ export function BlogCard({ image, text }) {
       <div className="blogCardImageContainer">
         <Image
           className="blogCardImage"
-          src={blog1}
+          src={image}
           alt="Imagem referente a postagem no blog"
         />
       </div>
@@ -26,9 +26,7 @@ export function BlogCard({ image, text }) {
       <div className="blogCardContent">
         <span className="blogDate">{`${month}.${day}.${year}`}</span>
 
-        <p className="content">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </p>
+        <p className="content">{text}</p>
 
         <div className="blogCardButtons">
           <PrimaryButton>Ler mais</PrimaryButton>
