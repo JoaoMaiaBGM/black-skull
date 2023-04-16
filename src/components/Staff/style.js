@@ -24,6 +24,8 @@ export const StaffContainer = styled.div`
   }
 
   .staffTitle {
+    margin: 0 60px;
+
     font-family: ${theme.fonts.robotoCondensed};
     font-style: italic;
     font-weight: 700;
@@ -40,9 +42,13 @@ export const StaffContainer = styled.div`
   }
 
   .staffList {
+    margin: 0 32px;
+
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+
+    gap: 20px;
   }
 `;
