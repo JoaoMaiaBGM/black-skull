@@ -17,3 +17,13 @@ export function scrollRightProducts() {
   const right = document.querySelector(".carouselProducts");
   right?.scrollBy(287, 0);
 }
+
+export function scrollLeftSales() {
+  const left = document.querySelector(".carouselSales");
+  left?.scrollBy(-287, 0);
+}
+
+export function scrollRightSales() {
+  const right = document.querySelector(".carouselSales");
+  right?.scrollBy(287, 0);
+}
