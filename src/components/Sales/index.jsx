@@ -4,7 +4,7 @@ import { SalesContainer } from "./style";
 export function Sales() {
   return (
     <>
-      <SalesContainer>
+      <SalesContainer id="promocoes">
         <h2 className="salesTitle">Lançamentos</h2>
         <SalesList />
       </SalesContainer>
