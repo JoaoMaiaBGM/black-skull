@@ -19,8 +19,8 @@ export function ProductsList() {
 
         <ul className="carouselProducts">
           {data.map((product, key) => (
-            <div className="productCardContainer">
-              <l1 className="productsItem" key={product.id}>
+            <div className="productCardContainer" key={product.id}>
+              <l1 className="productsItem">
                 <Image
                   className="productImage"
                   src={BoxProduct}
@@ -33,7 +33,12 @@ export function ProductsList() {
                   </div>
 
                   <div className="productSale">
-                    <h2 className="productPrice">{product.price}</h2>
+                    <h2 className="productPrice">
+                      {product.price.toLocaleString("pt-BR", {
+                        style: "currency",
+                        currency: "BRL",
+                      })}
+                    </h2>
                     <span className="productPaymentCondition">
                       {"ou em 12x de R$29,16"}
                     </span>
