@@ -2,8 +2,13 @@ import styled from "styled-components";
 import { theme } from "../../theme";
 
 export const HeaderContainer = styled.header`
-  max-width: 100vw;
+  width: 100vw;
   max-height: 104px;
+
+  position: fixed;
+  z-index: 999;
+
+  margin-top: -100px;
 
   .headerTop {
     width: 100%;
@@ -14,7 +19,7 @@ export const HeaderContainer = styled.header`
     align-items: center;
     justify-content: space-between;
 
-    padding: 10px 50px;
+    padding: 10px 70px;
     background-color: ${theme.colors.dark1};
   }
 
@@ -62,7 +67,7 @@ export const HeaderContainer = styled.header`
     align-items: center;
     justify-content: space-between;
 
-    padding: 10px 45px;
+    padding: 10px 65px;
     border-bottom: solid 1px ${theme.colors.dark3};
 
     background-color: ${theme.colors.black2};
@@ -100,7 +105,7 @@ export const HeaderContainer = styled.header`
     text-transform: uppercase;
 
     font-weight: 700;
-    font-size: 12px;
+    font-size: 14px;
 
     color: ${theme.colors.gray1};
     padding: 0 10px;
@@ -136,26 +141,31 @@ export const HeaderContainer = styled.header`
   }
 
   .input {
-    height: 40px;
+    width: 216px;
+    height: 35px;
 
     background: ${theme.colors.dark1};
 
     border: 1px solid ${theme.colors.dark3};
     border-radius: 4px;
 
-    padding: 0 25px;
+    padding: 0 15px;
   }
 
   .iconContainer {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
 
-    gap: 15px;
+    gap: 10px;
 
     color: ${theme.colors.gray1};
 
-    font-size: 21px;
+    font-size: 22px;
+
+    cursor: pointer;
+  }
+
+  svg:hover {
+    color: ${theme.colors.white};
   }
 `;

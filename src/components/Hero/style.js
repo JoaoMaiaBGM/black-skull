@@ -13,6 +13,8 @@ export const HeroContainer = styled.div`
   background-position: center;
   background-size: cover;
 
+  margin-top: 100px;
+
   .heroContent {
     width: 500px;
 
@@ -43,6 +45,7 @@ export const HeroContainer = styled.div`
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
+    line-height: 20px;
 
     text-align: left;
 

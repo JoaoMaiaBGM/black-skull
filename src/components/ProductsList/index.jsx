@@ -9,7 +9,7 @@ import { PrimaryButton } from "components/Buttons/primaryButton";
 export function ProductsList() {
   return (
     <>
-      <ProductsContainer id="promocoes">
+      <ProductsContainer>
         {/* Left icon */}
         <HiArrowLeft
           className="icon"

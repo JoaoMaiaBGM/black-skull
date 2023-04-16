@@ -6,7 +6,7 @@ import { scrollLeftCategories, scrollRightCategories } from "utils/lists";
 
 export function CategoriesList() {
   return (
-    <CategoriesContainer id="categorias">
+    <CategoriesContainer>
       {/* Left icon */}
       <HiArrowLeft
         className="icon"
