@@ -3,10 +3,12 @@ import { theme } from "../../theme";
 
 export const StaffContainer = styled.div`
   width: 100%;
-  height: 72.5vh;
+  height: 73vh;
 
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 
   background-image: url("/unsplash_section_staff.svg");
   background-position: center;
@@ -51,4 +53,12 @@ export const StaffContainer = styled.div`
 
     gap: 20px;
   }
+`;
+
+export const StaffButton = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: -25px;
 `;
