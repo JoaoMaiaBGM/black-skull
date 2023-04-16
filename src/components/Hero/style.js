@@ -22,7 +22,7 @@ export const HeroContainer = styled.div`
   }
 
   .heroTitle {
-    font-family: ${theme.fonts.roboto};
+    font-family: ${theme.fonts.robotoCondensed};
     font-style: italic;
     font-weight: 700;
     font-size: 40px;
