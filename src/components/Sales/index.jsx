@@ -5,7 +5,7 @@ export function Sales() {
   return (
     <>
       <SalesContainer id="promocoes">
-        <h2 className="salesTitle">Lançamentos</h2>
+        <h2 className="salesTitle">Promoções</h2>
         <SalesList />
       </SalesContainer>
     </>
