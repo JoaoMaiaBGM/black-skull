@@ -91,9 +91,6 @@ export const HeaderContainer = styled.header`
     list-style: none;
   }
 
-  .navbarItem {
-  }
-
   .navbarLink {
     height: 72px;
 

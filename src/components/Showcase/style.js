@@ -11,7 +11,7 @@ export const CategoriesContainer = styled.div`
 
   .showCaseTitle {
     margin-top: 40px;
-    font-family: ${theme.fonts.roboto};
+    font-family: ${theme.fonts.robotoCondensed};
     font-style: italic;
     font-weight: 700;
     font-size: 32px;

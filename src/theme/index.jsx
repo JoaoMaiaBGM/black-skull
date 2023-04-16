@@ -18,6 +18,7 @@ const theme = {
 
   fonts: {
     roboto: "Inter, sans-serif",
+    robotoCondensed: "Roboto, sans-serif",
     barlow: "Barlow, sans-serif",
   },
 };
