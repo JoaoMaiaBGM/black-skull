@@ -7,6 +7,7 @@ import { Sales } from "components/Sales";
 import { Blog } from "components/Blog";
 import { Goals } from "components/Goals";
 import { Benefits } from "components/Benefits";
+import { About } from "components/About";
 
 export default function Home() {
   return (
@@ -47,6 +48,7 @@ export default function Home() {
         <Blog />
         <Goals />
         <Benefits />
+        <About />
       </main>
     </>
   );
