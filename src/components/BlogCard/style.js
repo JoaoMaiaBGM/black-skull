@@ -67,8 +67,12 @@ export const BlogCardContainer = styled.li`
   }
 
   .arrowSquareOut {
-    margin-left: -20px;
+    margin-left: -28px;
+
+    padding: 8px;
 
     color: ${theme.colors.orange1};
+
+    cursor: pointer;
   }
 `;
