@@ -27,3 +27,48 @@ export const PrimaryButtonStyle = styled.button`
     background-color: ${theme.colors.orange2};
   }
 `;
+
+export const ScrollToTopButtonContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+
+  bottom: 45px;
+  right: 20px;
+
+  gap: 8px;
+
+  position: fixed;
+
+  cursor: pointer;
+  z-index: 9999;
+
+  .backToTopButton {
+    width: 50px;
+    height: 50px;
+
+    background-color: ${theme.colors.dark3};
+    color: ${theme.colors.white};
+
+    border: solid 1px ${theme.colors.gray1};
+    border-radius: 8px;
+
+    cursor: pointer;
+    z-index: 9999;
+  }
+
+  button {
+    width: 130px;
+    height: 40px;
+
+    padding: 3px;
+
+    font-family: ${theme.fonts.barlow};
+    font-weight: 700;
+    font-size: 12px;
+
+    text-align: center;
+
+    color: ${theme.colors.black2};
+  }
+`;
