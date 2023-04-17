@@ -146,6 +146,8 @@ export const HeaderContainer = styled.header`
     border: 1px solid ${theme.colors.dark3};
     border-radius: 4px;
 
+    color: ${theme.colors.white};
+
     padding: 0 15px;
   }
 
