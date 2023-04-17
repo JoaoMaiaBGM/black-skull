@@ -34,16 +34,22 @@ export const GoalsContainer = styled.div`
     position: relative;
   }
 
+  .goalsCard:hover {
+    .goalTag {
+      background-color: ${theme.colors.orange2};
+    }
+
+    .goalImage {
+      transition: 0.2s;
+      transform: scale(1.1);
+      filter: grayscale(0%);
+    }
+  }
+
   .goalImage {
     width: 100%;
     height: 350px;
     filter: grayscale(100%);
-  }
-
-  .goalImage:hover {
-    transition: 0.2s;
-    transform: scale(1.1);
-    filter: grayscale(0%);
   }
 
   .goalTag {
@@ -71,9 +77,5 @@ export const GoalsContainer = styled.div`
     color: ${theme.colors.black1};
 
     border: ${theme.colors.orange1};
-  }
-
-  .goalTag:hover {
-    background-color: ${theme.colors.orange2};
   }
 `;
