@@ -9,6 +9,7 @@ import { Goals } from "components/Goals";
 import { Benefits } from "components/Benefits";
 import { About } from "components/About";
 import { Footer } from "components/Footer";
+import { ScrollToTopButton } from "components/Buttons/scrollToTopButton";
 
 export default function Home() {
   return (
@@ -43,6 +44,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <ScrollToTopButton />
         <Showcase />
         <Staff />
         <Sales />
