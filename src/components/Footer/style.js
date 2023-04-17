@@ -134,6 +134,8 @@ export const FooterContainer = styled.div`
     align-items: flex-start;
     justify-content: center;
 
+    margin-left: 110px;
+
     gap: 48px;
   }
 
@@ -195,8 +197,7 @@ export const FooterContainer = styled.div`
   }
 
   .footerTopRightInput {
-    width: 266px;
-    height: 56px;
+    height: 46px;
     background: ${theme.colors.dark1};
 
     border: 1px solid ${theme.colors.dark3};

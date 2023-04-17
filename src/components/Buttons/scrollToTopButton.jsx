@@ -9,10 +9,10 @@ export function ScrollToTopButton() {
     <ScrollToTopButtonContainer>
       <button
         type="button"
-        class="backToTopButton"
+        className="backToTopButton"
         onClick={() => ScrollToTop()}
       >
-        <SlArrowUp class="arrowUp" />
+        <SlArrowUp className="arrowUp" />
       </button>
       <PrimaryButton> {<BsChatRightDotsFill />} Fale conosco</PrimaryButton>
     </ScrollToTopButtonContainer>
