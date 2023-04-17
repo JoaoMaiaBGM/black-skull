@@ -5,6 +5,7 @@ import { Showcase } from "../components/Showcase";
 import { Staff } from "components/Staff";
 import { Sales } from "components/Sales";
 import { Blog } from "components/Blog";
+import { Goals } from "components/Goals";
 
 export default function Home() {
   return (
@@ -43,6 +44,7 @@ export default function Home() {
         <Staff />
         <Sales />
         <Blog />
+        <Goals />
       </main>
     </>
   );
