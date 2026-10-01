@@ -10,8 +10,7 @@ export function Hero() {
           <span className="heroTitleHighlight">mais performance</span>
         </h1>
         <p className="heroSubtitle">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna
+          Aqui, nós temos suplementos para alta performance. Hipertrofia, Recuperação e Emagrecimento Saudável.
         </p>
         <PrimaryButton>Confira</PrimaryButton>
       </div>
